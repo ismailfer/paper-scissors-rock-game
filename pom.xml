@@ -13,7 +13,7 @@
 
 	<dependencies>
 
-  <dependency>
+  	<dependency>
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter</artifactId>
         <version>5.8.2</version>
@@ -41,6 +41,18 @@
 	            <version>2.22.2</version>
 	        </plugin>
 
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>com.ismail.SwingPlayerVsRandomPlayerTest</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
+			
 		</plugins>
 	</build>
 </project>
