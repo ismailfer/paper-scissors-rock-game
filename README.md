@@ -12,3 +12,9 @@ Example of players:
 Game can be extended to implement Email Player; where email and RestAPI is used to request for user's input.
 Thus allowing people to play over email communication
 
+##### Github Project
+[https://github.com/ismailfer/paper-scissors-rock-game](https://github.com/ismailfer/paper-scissors-rock-game)
+
+##### Docker
+[https://hub.docker.com/r/ismailfer/paper-scissors-rock](https://hub.docker.com/r/ismailfer/paper-scissors-rock)
+
